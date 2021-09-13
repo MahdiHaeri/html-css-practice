@@ -1,0 +1,191 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+  display: flex;
+  background-color: mediumspringgreen;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.header_item{
+  display: flex;
+  width: 100%;
+  padding: 15px;
+}
+
+.login, .sign_up, .logo{
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  transition: background-color .5s;
+}
+.login:hover, .sign_up:hover, .logo:hover{
+  background-color: rgba(255,255,255,.8);
+  cursor: pointer;
+}
+
+.header_item .login{
+  margin-left: 10px;
+}
+
+.header_item .sign_up{
+  margin-left: auto;
+}
+
+/* -----------------------------------------menu---------------------------------------------------------------- */
+
+menu{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+menu ul{
+  display: flex;
+  list-style: none;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: .5em;
+}
+
+menu ul li{
+  margin: 3px;
+  border-radius: 10px;
+  padding: 10px;
+  flex-grow: 1;
+  transition: background-color .5s;
+  text-align: center;
+}
+
+menu ul li:hover{
+  background-color: rgba(255,255,255,.37);
+  cursor: pointer;
+}
+
+/* --------------------------------------------lessons and asaid----------------------------------------------------------- */
+
+.center_site{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+main{
+  flex-grow: 3;
+  background-color: mediumspringgreen;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+.lesson_conteiner{
+  width: 100%;
+  border-radius: 10px;
+  background: black;
+  padding: 1em;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.lessons{
+  width: 80%;
+  height: 200px;
+  border-radius: 10px;
+  margin: .5em;
+  background-color: mediumspringgreen;
+  transition: width 1s;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.lessons:hover{
+  width: 100%;
+}
+
+aside{
+  flex-grow: 1;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  background-color: mediumspringgreen;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+aside .aside_items{
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+aside .aside_items .item{
+  width: 80%;
+  border-radius: 10px;
+  margin: .5em;
+  background-color: mediumspringgreen;
+  font-weight: 800;
+  padding: 1em;
+  color: black;
+  direction: rtl;
+  transition: width 1s;
+}
+
+aside .aside_items .item:hover{
+  width: 100%;
+}
+
+/* ---------------------------------------------footer---------------------------------------------------- */
+
+footer{
+  background-color: mediumspringgreen;
+  display: flex;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+footer .footer_continer{
+  background-color: black;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+footer .footer_continer > div{
+  background-color: mediumspringgreen;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  margin: .5em;
+  transition: background-color 1s;
+}
+
+footer .footer_continer > div:hover{
+  background-color: rgba(255,255,255,.8);
+}
