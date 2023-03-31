@@ -1,0 +1,136 @@
+@font-face {
+  font-family: myfirstfont;
+  src: url(Ceviche_One/CevicheOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: mysecondfont;
+  src: url(Luckiest_Guy/LuckiestGuy-Regular.ttf);
+}
+
+@font-face {
+  font-family: mythirdfont;
+  src: url(Modak/Modak-Regular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: myfirstfont;
+  letter-spacing: .5px;
+}
+body {
+  background-image: linear-gradient(to right bottom ,lightgreen,lightcoral);
+}
+
+main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+
+div.login {
+  box-shadow: 0 0 15px black;
+  background-color: white;
+  padding: 10px;
+  width: 350px;
+  height: 450px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.login header {
+  font-family: mysecondfont;
+  font-size: 25px;
+  color: black;
+  border-radius: 10px;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  cursor: default;
+  margin-top: 20px;
+}
+header span {
+  font-family: mysecondfont;
+  color: #35df90;
+}
+
+header span:hover {
+  color: lightcoral
+}
+
+
+form.form {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  padding: 10px;
+}
+
+form input.t_input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-bottom: 2px solid #35df90;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #35df90;
+  padding: 10px;
+  margin: 5px;
+}
+
+form input.t_input:focus {
+  outline: none;
+  color: lightcoral;
+  border-bottom: 2px solid lightcoral;
+  background-color: rgba(255,255,255,.15);
+}
+
+form input.submit {
+  width: 100%;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #35df90;
+  border-top: 2px solid #35df90;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: white;
+  color: #35df90;
+  border-radius: 10px;
+}
+
+form input.submit:hover {
+  letter-spacing: 1px;
+  color: lightcoral;
+  border-color: lightcoral;
+  cursor: pointer;
+}
+
+form a {
+  font-family: myfirstfont;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #7c7c7c;
+}
+
+form a.create {
+  color: #35df90;
+}
+
+form a:hover {
+  filter: brightness(75%);
+}
