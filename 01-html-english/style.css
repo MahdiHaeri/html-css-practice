@@ -1,0 +1,82 @@
+@font-face{
+  font-family: "Lobster-Regular";
+  src: url('fonts/Lobster/Lobster-Regular.ttf');
+}
+
+@font-face{
+  font-family: "Nicoone-Regular";
+  src: url('fonts/Niconne/Niconne-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Tourney";
+  src: url('fonts/Tourney/static/Tourney/Tourney-BlackItalic.ttf');
+}
+
+* {
+  border: 0;
+  margin: 0;
+}
+
+body{
+  background-color: rgba(163,5,0,1);
+  font-family: Lobster-Regular;
+}
+
+
+
+div.header{
+  height: 200px;
+  background-color: rgba(234 36 36);
+  border: 3px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 10px black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: column;
+  position: sticky;
+  z-index: 1000000;
+}
+
+
+div.header *{
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px red, 2px 2px orange, 3px 3px yellow, 4px 4px green, 5px 5px blue,
+  6px 6px aqua, 7px 7px purple, 8px 8px darkviolet, 9px 9px rgba(155,227,230,1), 10px 10px rgba(75,130,23,1),
+  11px 11px rgba(49,110,210,1), 12px 12px rgba(198,150,44,1), 13px 13px rgba(205,21,21,1), 18px 18px 3px black, 20px 20px 10px black;
+}
+
+div.lessons_box{
+  display: flex;
+  height: auto;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+div.lesson{
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color: rgba(105,208,139,1);
+  text-align: center;
+  margin: 10px 347px;
+  width: 50%;
+  height: 500px;
+  box-shadow: 0px 0px 20px 10px black;
+  -webkit-transition: all .9s ease-out;
+}
+
+.lesson:hover{
+  background-color: rgb(234 36 36);
+  margin: 10px 10px;
+  width: 100%;
+}
+
+video{
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 10px black;
+}
