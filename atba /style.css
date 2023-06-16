@@ -1,0 +1,79 @@
+. {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: tomato;
+  display: flex;
+  height: 90vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  /* opacity: 10%; */
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.main {
+  width: 600px;
+  height: 80vh;
+  border-radius: 20px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 20px;
+}
+
+div.main div.slide {
+  background-color: lightgreen;
+  border-radius: 20px;
+  width: 80%;
+  height: 40px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  border-bottom: 2px solid darkgreen;
+}
+
+div.main div.slide:hover {
+  width: 90%;
+  transition: 1s;
+  cursor: pointer;
+}
+
+div.main div.slide div.left_number {
+  background-color: white;
+  border-radius: 100%;
+  padding: 10px;
+  border: 1px black dashed;
+}
+
+div.main div.slide div.left_number:hover {
+  transform: rotatez(360deg);
+  transition: 1s;
+}
+
+div.main div.slide div.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px black dashed;
+}
