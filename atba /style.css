@@ -48,11 +48,11 @@ div.main div.slide {
   align-items: center;
   margin: 5px;
   border-bottom: 2px solid darkgreen;
+  transition: 1s;
 }
 
 div.main div.slide:hover {
   width: 90%;
-  transition: 1s;
   cursor: pointer;
 }
 
