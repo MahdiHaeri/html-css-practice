@@ -1,0 +1,69 @@
+htm
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signupStyle.css">
+    <title>Glass  Container</title>
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.min.css">
+</head>
+<body>
+    <div id="main-container">
+        <h1>Signup</h1>
+        <form action="">
+            <div class="main-input-container">
+                <div id="first-form-column">
+                    <div class="input-container">
+                        <i class="fa-solid fa-signature">
+                            <input type="text" placeholder="First name" class="form-input" tabindex="1">
+                        </i>
+                        <i class="fa-solid fa-envelope">
+                            <input type="email" placeholder="Email" class="form-input" tabindex="3">
+                        </i>
+                        <i class="fa-solid fa-lock">
+                            <input type="password" name="" id="" placeholder="Password" class="form-input" tabindex="5">
+                        </i>
+                        <i class="fa-solid fa-cake-candles">
+                            <input type="date" name="" id="" placeholder="Password" class="form-input" tabindex="7">
+                        </i>
+                    </div>
+                </div>
+
+                <div id="second-form-column">
+                    <div class="input-container">
+                        <i class="fa-solid fa-signature">
+                            <input type="text" name="" id="" placeholder="Last name" class="form-input" tabindex="2">
+                        </i>
+                        <i class="fa-solid fa-user">
+                            <input type="text" placeholder="Username" class="form-input" tabindex="4">
+                        </i>
+
+                        <i class="fa-solid fa-lock">
+                            <input type="password" name="" id="" placeholder="Rewrite Password" class="form-input" tabindex="6">
+                        </i>
+                        <i class="fa-solid fa-person-half-dress">
+                            <!-- <label for="myCombo">Choose an option:</label> -->
+                            <select name="myCombo" id="myCombo" class="form-input" tabindex="8">
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                        </i>
+                    </div>
+                </div>
+            </div>
+
+
+            <input type="submit" value="Register" id="login-btn"> 
+            <div id="link-container">
+                <div id="signup-container">
+                    <p>Already have an account?</p>
+                    <a href="login.html" id="signup-link">Login?</a>
+                </div>
+                <!-- <a href="" class="link">Forgot my password</a> -->
+            </div>
+        </form>
+    </div> 
+</body>
+</html>
